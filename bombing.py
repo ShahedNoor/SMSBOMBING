@@ -1,4 +1,11 @@
-print("Programme Created By Shahed Noor")
+import sys, time, os
+message = ("Thsi Programme is made by \n Officia Coder: Shahed Noor")
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.1)
+
+print("\nSuccessfully Loaded")
 
 import requests
 number = str(input("Enter The Phone Number: "))
